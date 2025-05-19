@@ -187,3 +187,12 @@ gdlink 'https://drive.google.com/open?id=0B8SvBXZ3I5QMcUduTMJEanRkMzQ' |xargs -n
 
 
 转载于萌咖https://moeclub.org/2018/04/03/603/
+
+
+bash <(wget --no-check-certificate -qO- 'https://raw.githubusercontent.com/MoeClub/Note/master/InstallNET.sh') -d 9 -v 64 -p 密码
+
+
+命令中的 -d 后面为Debian版本号，-v 后面为64位/32位，【7、8、9、10】
+命令中的 -u 后面为Ubuntu版本号，-v 后面为64位/32位，【14.04、16.04、18.04、20.04】
+
+
